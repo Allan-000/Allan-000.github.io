@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.jumbotron{
+    background-image: url(img/Jumbotron-backgound.jpg);
+    background-size: cover;
+}
+@font-face{
+    font-family:Knewave-Regular;
+    src: url(fonts/Knewave-Regular.ttf);
+}
+.box{
+    margin: 50px;
+    padding: 30px;
+    border-radius: 30px;
+    font-family:Knewave-Regular;
+    background-color: rgba(255, 255, 255, 0.4);
+}
+h1,h2,h3,h4,h5,h6,p{
+    font-family: Knewave-Regular;
+}
