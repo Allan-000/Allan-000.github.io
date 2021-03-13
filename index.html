@@ -12,12 +12,13 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <!--Jumbotron-->
 <div class="jumbotron">
   <br>
   <div class="box">
-    <h1 class="text-center" style="color: rgb(25, 55, 90);">Never give up on a dream just because of the time it will take to accomplish.</h1>
-    <h1 class="text-center" style="color: rgb(25, 55, 90);">The time will pass anyway.</h1>
+    <h1 class="text-center" style="color: rgb(32,32,32);">Never give up on a dream just because of the time it will take to accomplish.</h1>
+    <h1 class="text-center" style="color: rgb(32,32,32);">The time will pass anyway.</h1>
   </div>
   <br>
 </div>
@@ -47,22 +48,29 @@
         <li class="nav-item">
           <a class="nav-link " href="#Contact">Contact</a>
         </li>
+        <li class="nav-item">
+          <button class="darkModeSwitcher" onclick=changeBgColor()>dark mode</button>
+          
+        </li>
+        <li class="nav-item">
+          <button class="normalModeSwitcher" onclick=getNormalModeBack()>normal mode</button>
+        </li>
       </ul>
     </div>
   </nav>
-
 
 <div class="container">
   <br>
   <!--De home section-->
   <section id="Home">
     <br><br><br>
-    <h1 class="text-center ">Welkom op mijn porfolio website</h1>
+    <h1 class="text-center">Welkom op mijn porfolio website</h1>
     <br><br><br><br>
     <div class="row">
       <div class="col-sm-12 col-md-6">
-        <img style="max-width: 250px;" class="img-fluid rounded-circle" src="img/my-foto.jpg" alt="my-foto">
+        <img style="max-width: 250px;" class="img-fluid rounded-circle mx-auto d-block" src="img/my-foto.jpg" alt="my-foto">
       </div>
+      <br>
       <div class="col-sm-12 col-md-6">
         <p class="text-center ">Mijn naam is Allan, ik ben 22 jaar oud, ik kom uit Syrie en woon in Nederland sinds 2017.</p>
         <p class="text-center"> Dit is mijn website portfolio, gemaakt door gebruik te maken van HTML, CSS en bootstrap.</p>
@@ -159,6 +167,7 @@
     <br><br>
   </section>
   <br><br>
+  <script src="script.js"></script>
   </body>
   
 <footer>
