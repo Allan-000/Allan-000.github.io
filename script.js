@@ -1,17 +1,10 @@
-let texts =document.querySelectorAll('.text-center');// alle headers en paragrafen selecteren
-function changeBgColor(){
-    document.body.style.backgroundColor="#2e3238";
-    //de kleur veranderen van de headers (dark mode)
-    for(let i = 0; i< texts.length ;i++){
-        texts[i].style.color="white";
+const elements=document.querySelectorAll('.text-center');
+const button=document.querySelector('#themeButton');
+if (button){
+button.addEventListener("click", function(){
+    for( let i=0 ; i<elements.length ; i++){
+        elements[i].classList.toggle("darkTheme")
     }
+    document.body.classList.toggle("darkBackground")
+})
 }
-function getNormalModeBack(){
-    document.body.style.backgroundColor="white";
-    //de kleur veranderen van de headers (normal mode)
-    for(let i = 0; i< texts.length ;i++){
-        texts[i].style.color="#202020";
-    }
-}
-
-
