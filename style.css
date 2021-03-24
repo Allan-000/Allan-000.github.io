@@ -2,6 +2,10 @@
     margin: 0px;
     padding: 0px;
 }
+@font-face{
+    font-family:Knewave-Regular;
+    src: url(fonts/Knewave-Regular.ttf);
+}
 html{
     scroll-behavior: smooth;
 }
@@ -9,10 +13,11 @@ html{
     background-image: url(img/Jumbotron-backgound.jpg);
     background-size: cover;
 }
-@font-face{
-    font-family:Knewave-Regular;
-    src: url(fonts/Knewave-Regular.ttf);
+#Home ,#Studie , #Vaardigheden ,#Projecten, #Contact {
+    margin-top: 18%;
+    margin-bottom: 23%;
 }
+
 .box{
     margin: 50px;
     padding: 30px;
