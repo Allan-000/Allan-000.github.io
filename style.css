@@ -2,47 +2,90 @@
     margin: 0px;
     padding: 0px;
 }
+html{
+    scroll-behavior: smooth;
+}
 @font-face{
     font-family:Knewave-Regular;
     src: url(fonts/Knewave-Regular.ttf);
 }
-html{
-    scroll-behavior: smooth;
-}
-.jumbotron{
+.jumbotron
+{
     background-image: url(img/Jumbotron-backgound.jpg);
     background-size: cover;
 }
-#Home ,#Studie , #Vaardigheden ,#Projecten, #Contact {
-    margin-top: 18%;
-    margin-bottom: 23%;
+.jumbotron-text{
+    font-size: 300%;
+    color: rgb(240, 218, 218);
+    display: flex;
+    justify-content: center;
 }
-
 .box{
-    margin: 50px;
-    padding: 30px;
-    border-radius: 30px;
-    font-family:Knewave-Regular;
-    background-color: rgba(92, 78, 78, 0.4);
+    background-color: rgba(25, 25, 25, 0.4);
+    margin: 10%;
+    padding: 50px;
+    border-radius: 40px;
+    box-shadow: 8px 8px 8px gray;
+}
+#Home,#Studie,#Projecten,#Vaardigheden,#Contact{
+    margin-top: 200px;
+    margin-bottom: 200px;
 }
 h1,h2,h3,h4,h5,h6,p{
-    font-family: Knewave-Regular;
+    font-family:Knewave-Regular
 }
-.jumbotron-text{
-    color: rgb(29, 34, 34);
-}
-#themeButton{
-    margin: 7px;
-    padding: 2px;
-    color: black;
+#website-logo{
     border-radius: 10px;
+    width: 45%;
+    box-shadow:5px 5px 5px blue;
 }
-.darkTheme{
-    color: rgb(202, 217, 224);
+.nav-items{
+    font-size:130% ;
 }
-.darkBackground{
-    background-color: rgb(34, 32, 32);
+#my-photo{
+    max-width: 80%;
+    box-shadow: 8px 8px 8px gray;
 }
-p{
+.p-text{
     font-size: 150%;
+}
+#studie-foto{
+    border-radius: 50px;
+    max-width: 80%;
+    box-shadow: 8px 8px 8px gray;
+    margin-bottom: 10%;
+    
+}
+#school-foto{
+    max-width: 95%;
+    box-shadow: 8px 8px 8px gray;
+    border-radius: 50px;
+    margin-bottom: 10%;
+}
+#card-game-foto{
+    max-width: 80%;
+    margin: 10% 0% 10% 0%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px gray;
+}
+#rekenmachine-foto{
+    max-width: 95%;
+    margin: 10% 0% 10% 0%;
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px gray;
+}
+.vaardigheden-logo{
+    max-width: 200px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 10%;
+}
+.contact-icon{
+    font-size: 50px;
+}
+.themedTexts{
+    color: rgb(255, 255, 255);
+}
+.bodyBackgroundColor{
+    background: rgb(10, 9, 9);
 }
