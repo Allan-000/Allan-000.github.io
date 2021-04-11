@@ -36,8 +36,8 @@ h1,h2,h3,h4,h5,h6,p{
 }
 #website-logo{
     border-radius: 10px;
-    width: 45%;
-    box-shadow:5px 5px 5px blue;
+    width: 200px;
+    box-shadow :5px 5px 5px blue;
 }
 .nav-items{
     font-size:130% ;
