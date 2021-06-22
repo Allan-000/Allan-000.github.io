@@ -112,7 +112,9 @@ function winCheck(){
         }
     }
 }
-
+function drawCheck(){
+    
+}
 function resetFields(){
     for(let i=0;i<fields.length; i++){
         fields[i].classList.remove("o-selection");
