@@ -358,7 +358,6 @@ input[type=checkbox]:checked + .box-slider{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(4,1fr);
-        padding: 60px 0px 180px 0px;
     }
     .first-project-photo{
         grid-column: 1/2;
@@ -403,6 +402,27 @@ input[type=checkbox]:checked + .box-slider{
         grid-column: 2/3;
         grid-row: 4/5;
         padding: 0px 170px 0px 170px;
+    }
+    .fifth-project{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .fifth-project img{
+        height: 300px;
+        width: auto;
+        border-radius: 40px;
+        box-shadow: 10px 10px 30px rgb(172, 172, 172);
+        margin:30px 0px 60px 0px;
+        box-shadow: 10px 10px 30px gray;
+        
+    }
+    .fifth-project p{
+        text-align: center;
+        line-height: 1.3em;
     }
     .first-grid{
         display: grid;

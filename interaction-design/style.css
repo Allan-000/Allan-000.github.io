@@ -1,0 +1,366 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+body{
+    background: linear-gradient(to right, rgb(255, 230, 146), rgb(252, 253, 239));
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    height: 100vh;
+}
+
+nav{
+    height: 30px;
+    width: 80%;
+    max-width: 1500px;
+    background: linear-gradient(to right, lightblue, #3c6aff);
+    margin: auto;
+    padding: 10px;
+    position: relative;
+    left: 60px;
+    top: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 20px gray;
+}
+
+.nav-toggler{
+    display: none;
+}
+.website-brand{
+    height: 30px;
+    width: auto;
+    box-shadow: 3px 3px 10px gray;
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    float: right;
+}
+
+.website-brand{
+    color: #474747;
+    font-size: 1.3em;
+}
+
+nav ul li{
+    list-style: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 0 20px 0 20px;
+    font-size: 1.1em;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;
+}
+
+aside{
+    position: fixed;
+    width: 55px;
+    height: 100vh;
+    background-color: rgb(39, 39, 39);
+    border-top-right-radius: 50px;
+    transition: 400ms;
+    padding-right: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.volg-h3{
+    color: white;
+    transform: rotate(270deg);
+    width: 95px;
+    height: 10px;
+    padding-top: 30px;
+    transition: 400ms;
+}
+
+.volg-h3-extended{
+    transform: rotate(360deg);
+    font-style: italic;
+}
+
+.aside-extended{
+    width: 300px;
+    z-index: 100;
+    opacity: 0.85;
+}
+
+aside ul li{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+aside ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 40px 14px 0 0 ;
+}
+
+.gmail-li{
+    padding-left: 35px;
+}
+
+aside ul{
+    padding-bottom:70px;
+}
+
+.hamburger{
+    color: white;
+    font-size: 2.2em;
+    transition: 400ms ease-in-out;
+    padding-top: 20px;
+    padding-right: 10px;
+}
+.hamburger:hover{
+    cursor: pointer;
+}
+.logo{
+    height: 40px;
+    width: auto;
+    border-radius: 50%;
+    margin-top: 40px ;
+    margin-right: 5px;
+    transition: 400ms;
+}
+
+.logo-extended{
+    left: 240px;
+}
+
+.website-content{
+    position: relative;
+    top: 100px;
+    margin: auto;
+    height: 100vh;
+    width: 80vw;
+}
+
+#Home h2,
+#over-de-opleiding h2{
+    text-align: center;
+    padding: 10px;
+}
+#Home div,
+.first-div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px 0;
+}
+#Home div p,
+.first-div p{
+    grid-column: 1/2;
+    padding: 0 40px;
+    text-align: center;
+    line-height: 1.7em;
+    font-size: 1.1em;
+    display: grid;
+    place-items: center;
+}
+
+#Home div img,
+.first-div img{
+    grid-column: 2/3;
+    border-radius: 500%;
+    height: 400px;
+    width: auto;
+    box-shadow: 10px 10px 30px gray;
+    margin: auto;
+}
+#over-de-opleiding{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.second-div{
+    width: 75vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.5em;
+}
+#career div{
+    display: flex;
+    justify-content: space-between;
+}
+#career div img{
+    height: 270px;
+    width: auto;
+    border-radius: 40px;
+    box-shadow: 10px 10px 20px gray;
+}
+#career h2,
+#contact h2{
+    text-align: center;
+    padding: 40px 0;
+}
+#career p{
+    line-height: 1.5em;
+    padding: 30px 0;
+    width: 75vw;
+}
+#contact p{
+    line-height: 1.5em;
+    width: 75vw;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.contact-form{
+    display: grid;
+    grid-row-gap: 1em;
+    grid-template-columns: 1fr 1fr;
+}
+.name-label,
+.email.label,
+.vraag{
+    grid-column: 1/2;
+}
+.name-input,
+.email-input{
+    grid-column: 2/3;
+    
+}
+.text-area,
+.submit-btn{
+    grid-column: 1/3;
+}
+.text-area{
+    height: 5em;
+    resize: none;
+}
+.name-input,
+.email-input,
+.text-area{
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px lightgray;
+    padding-inline: 1em;
+}
+.submit-btn{
+    width: 10em;
+    margin: auto;
+    border-radius: 10px;
+    height: 2em;
+    border: 1px solid white;
+    box-shadow: 5px 5px 20px gray;
+    transition: 400ms;
+}
+.submit-btn:hover{
+    transform: scale(1.150);
+}
+footer{
+    height: 2em;
+    width: 85vw;
+    background-color: #474747;
+    color: #fff;
+    margin: 5em auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+@media (max-width:400px){
+    aside{
+        height: 100vh;
+        width: 5px;
+        position: fixed;
+        z-index: 100;
+    }
+    .hamburger{
+        position: relative;
+        left: 30px;
+        top: 45%;
+        transform: scale(0.5);
+    }
+    nav{
+        left: 0;
+        width: 80vw;
+        transition: 300ms;
+    }
+    .nav-toggler{
+        display: inline-block;
+        float: right;
+        transform: scale(1.5);
+        padding: 5px 5px 0 0;
+    }
+    .extended-nav{
+        height: 220px;
+    }
+    nav ul{
+        display: none;
+        transition: 300ms;
+    }
+    .extended-ul{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 20px;
+        line-height: 2.2em;
+    }
+    .website-content{
+        width: 90vw;
+    }
+    #Home div,
+    #over-de-opleiding .first-div,
+    #career div{
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+    }
+    
+    #Home div img,
+    #over-de-opleiding .first-div img{
+        width: 85vw;
+        height: auto;
+        margin: auto;
+        margin-top: 30px;
+    }
+    #career p,
+    #contact p,
+    #over-de-opleiding p{
+        font-size: 1.1em;
+        line-height: 1.6em;
+    }
+    #career,
+    #contact,
+    .contact-form{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #career div img{
+        margin: 30px auto 40px auto;
+        width: 85vw;
+    }
+    .name-input,
+    .email-input,
+    .text-area{
+        width: 70vw;
+    }
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
