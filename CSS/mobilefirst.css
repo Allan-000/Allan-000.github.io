@@ -24,7 +24,7 @@ section a:hover{
     color: white;
 }
 .jumbotron{
-    background-image: url(img/Jumbotron-backgound.jpg);
+    background-image: url(../img/Jumbotron-backgound.jpg);
     background-size: cover;
     height: 540px;
     width:1fr;
@@ -241,7 +241,7 @@ input[type=checkbox]{
     height: 40px;
     width: 40px;
     border-radius: 50px;
-    background:url(img/moon.png);
+    background:url('../img/moon.png');
     background-size: cover;
     position: absolute;
     top:0; bottom: 0; right: 0; left: 0;
@@ -249,7 +249,7 @@ input[type=checkbox]{
 }
 input[type=checkbox]:checked + .box-slider{
     transform: translateX(40px);
-    background:url(img/sun.png);
+    background:url('../img/sun.png');
     background-size: cover;
 }
 /*desktop display*/
@@ -293,7 +293,7 @@ input[type=checkbox]:checked + .box-slider{
         height: 40px;
         width: 40px;
         border-radius: 50px;
-        background:url(img/moon.png);
+        background:url('../img/moon.png');
         background-size: cover;
         position: absolute;
         top:0; bottom: 0; right: 0; left: 0;
@@ -301,7 +301,7 @@ input[type=checkbox]:checked + .box-slider{
     }
     input[type=checkbox]:checked + .box-slider{
         transform: translateX(40px);
-        background:url(img/sun.png);
+        background:url('../img/sun.png');
         background-size: cover;
     }
     #home h2,#studie h2,#projects h2,#skills h2,#contact h2{
