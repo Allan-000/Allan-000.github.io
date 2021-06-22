@@ -7,7 +7,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    padding-top:100px ;
+    padding-top: 100px;
     background-color: lightblue;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -18,7 +18,7 @@ header{
 }
 header h2{
     font-size: 2em;
-    padding-bottom: 40px;
+    padding-bottom: 20px;
 }
 header input,
 header button{
@@ -62,6 +62,7 @@ header button:hover{
     font-size: 1em;
     background-color: white;
     transition: 300ms;
+    margin-bottom: 30px;
 }
 .restart-button:hover{
     cursor: pointer;
@@ -205,7 +206,7 @@ header button:hover{
         margin: 0;
     }
     body{
-        height: 100vh;
+        height: 100%;
         padding: 0;
     }
     header{
@@ -216,7 +217,7 @@ header button:hover{
     }
     header h2{
         text-align: center;
-        padding: 0 18px 0 18px;
+        padding: 20px 18px 0 18px;
     }
     header span{
         text-align: center;
