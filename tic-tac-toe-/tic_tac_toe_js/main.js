@@ -14,6 +14,7 @@ const players=[];
 const board=document.querySelector(".playing-board");
 const fields=document.querySelectorAll(".playing-board div");
 const restartButton=document.querySelector(".restart-button");
+const resetFieldsBtn=document.querySelector(".reset-fields");
 
 
 const winLines = [
@@ -112,9 +113,14 @@ function winCheck(){
         }
     }
 }
-function drawCheck(){
-    
-}
+
+resetFieldsBtn.addEventListener('click',()=>{
+    for(let i=0;i<fields.length; i++){
+        fields[i].classList.remove("o-selection");
+        fields[i].classList.remove("x-selection");
+    }
+});
+
 function resetFields(){
     for(let i=0;i<fields.length; i++){
         fields[i].classList.remove("o-selection");

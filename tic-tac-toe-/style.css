@@ -64,9 +64,21 @@ header button:hover{
     transition: 300ms;
     margin-bottom: 30px;
 }
-.restart-button:hover{
+.restart-button:hover,
+.reset-fields:hover{
     cursor: pointer;
     transform: scale(1.2);
+}
+.reset-fields{
+    width: 170px;
+    height: 40px;
+    border: none;
+    box-shadow: 10px 10px 30px gray;
+    border-radius: 15px;
+    font-size: 1em;
+    background-color: white;
+    transition: 300ms;
+    margin-bottom: 30px;
 }
 .x-selection::after{
     content: "";
