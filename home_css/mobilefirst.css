@@ -139,12 +139,26 @@ ul{
     height: 260px;
     width: 350px;
     border-radius: 40px;
-    box-shadow: 10px 10px 30px rgb(172, 172, 172);
     margin:30px 0px 30px 0px;
     box-shadow: 10px 10px 30px gray;
 }
 .third-project-photo{
     height:300px ;
+}
+.fifth-project{
+    display: flex;
+    flex-direction: column;
+}
+.fifth-project img{
+    height: 260px;
+    width: 350px;
+    border-radius: 40px;
+    margin:30px auto;
+    box-shadow: 10px 10px 30px gray;
+}
+.fifth-project p{
+    padding: 0 10px 50px 10px;
+    text-align: center;
 }
 .html-logo,
 .css-logo,
