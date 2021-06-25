@@ -73,6 +73,10 @@ aside{
     align-items: flex-end;
 }
 
+aside ul li a{
+    font-size: 0.8em;
+}
+
 .volg-h3{
     color: white;
     transform: rotate(270deg);
@@ -302,6 +306,7 @@ footer{
         display: none;
         transition: 300ms;
     }
+    
     .extended-ul{
         display: flex;
         flex-direction: column;
@@ -349,11 +354,6 @@ footer{
     .text-area{
         width: 70vw;
     }
-
-
-
-
-
 }
 
 
